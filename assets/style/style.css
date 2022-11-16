@@ -143,3 +143,22 @@ header a:hover {
     width: 100%;
     height: 400px;
 }
+
+.banner-two img{
+z-index: 1000;
+}
+
+.bar-one {
+    z-index: 1001;
+    width: 50px;
+    height: 220px;
+    background-color: var(--celadon);
+    position: fixed;
+}
+.bar-two {
+    z-index: 999;
+    background-color: var(--celadon);
+    width: 50px;
+    height: 220px;
+    position: fixed;
+}
